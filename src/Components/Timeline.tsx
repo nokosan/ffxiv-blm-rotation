@@ -134,7 +134,7 @@ class TimelineMain extends React.Component {
 				timelineCanvasOnClick(e);
 			}} onKeyDown={e=>{
 				timelineCanvasOnKeyDown(e);
-			}}>
+			}} tabIndex={0}>
 				<div style={{
 					position: "relative",
 					backgroundColor: "transparent",
